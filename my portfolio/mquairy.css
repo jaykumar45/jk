@@ -1,0 +1,164 @@
+@media (max-width: 889px) {
+    .menu-toggle{
+        display: block;
+        z-index: 999;
+        border: 3px solid #00ff00;
+        color: rgb(164, 154, 174);
+    }
+    
+    .header{
+        width: 100%;
+        position: relative;
+    }
+
+
+
+    .main-nav{
+        display: none;
+        width: 100%;
+        height: 50vh;
+        background-color: rgba(242, 144, 15, 0.871);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+        #navbar-items{
+            width: 100%;
+            display: flex;
+
+            flex-direction: column;
+            background-color: #00ff00;
+            align-items: center;
+            
+        }
+
+        opacity: 0;
+
+    }
+    .main-nav:hover{
+        opacity: 1;
+    }
+
+   
+
+    /* hero-section */
+    .container{
+        width: 100%;
+        margin: auto auto;
+        padding: 0 10px;
+    }
+    .content{
+        width: 100%;
+        padding: 0;
+    }
+    .main-hero{
+        flex-direction: column;
+        width: 100%;
+    }
+    .hero-img{
+        width: 100%;
+        margin: 3rem;
+    }
+
+    /* .skills{
+    }
+    .logo img{
+        width: 100%;
+    } */
+
+    /* about section */
+    .about{
+    }
+
+    .main-about{
+        flex-direction: column;
+    }
+    .about-container{
+        padding: 0 4rem;
+    width: 100%;
+    height: 100vh;
+    }
+    .about-content{
+        width: 100%;
+        height: 100%;
+    }
+    .about-text-right{
+        width: 100%;
+    }
+    .coding-img{
+        width: 100%;
+    }
+
+
+    /* project-section */
+
+    .project-sec-con{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+    }
+    .pro-left{
+        width: 100%;
+        background-color: rgba(240, 248, 255, 0.104);
+    }
+    
+    .pro-right{
+        width: 100%;
+        background-color: rgba(240, 248, 255, 0.226);
+        margin: 12px 0;
+    }
+    
+    /* footer */
+    .footer-header{
+        align-items: center;
+    }
+    .footer-my{
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .footer-left{
+        margin: 2rem 0;
+        display: block;
+    }
+    .footer-right{
+        width: 100%;
+        align-items: center;
+        padding: 0 200px;
+        margin: 10px;
+    }
+    .footer-right a{
+       margin: 2rem;
+       padding:1rem 2rem;
+       background: rebeccapurple;
+       width: 100%;
+    }
+
+
+
+    .contact-sec{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:689px) {
+     .menu-toggle{
+        display: block;
+    }
+    .navbar-items{
+        display: none;
+    }
+  
+   
+
+    
+}
+
+
+@media (max-width:380px) {
+   
+}
