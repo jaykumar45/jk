@@ -519,14 +519,15 @@ h1 {
 /* project-section-start */
 
 .projects {
-  border: 2px solid red;
+  width: 100%;
+  /* border: 2px solid red; */
 }
 
 
 .main-project-section {
   width: 100%;
   margin-top: 3rem;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 
 }
 
@@ -542,9 +543,9 @@ h1 {
   height: 50vh;
   border-radius: 10rem;
   padding: 20px;
-  box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.901);
+  box-shadow: 0px 2px 8px rgb(255, 255, 255);
   margin: 20px 0;
-  border: 3px  solid yellow;
+  border: 1px  solid rgba(255, 255, 83, 0.512);
 
 }
 
@@ -610,11 +611,10 @@ h1 {
 .services-container{
   width: 100%;
   height: 20vh;
-  border: 1px solid yellow;
   position: relative;
 }
 .services-container div {
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
   margin: 55px auto;
   text-align: center;
 }
@@ -777,28 +777,4 @@ h1 {
 .sub-links a {
   margin: 10px;
   font-size: 25px;
-}
-
-
-
-.conta {
-  width: 400px;
-  color: #fff;
-  height: 400px;
-  background: rgb(0, 153, 255);
-  overflow: hidden;
-  animation: jk 2s infinite 200ms;
-
-}
-
-
-.conta p {
-  transform: translatey(1px);
-  transition: 3s;
-
-}
-
-.conta p:hover {
-  transform: translatey(-50%);
-
 }

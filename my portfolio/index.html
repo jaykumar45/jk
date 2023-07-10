@@ -30,12 +30,12 @@
 
 <body>
   <!-- header-start -->
-  <header class="header flex" >
+  <header class="header flex" data-aos="fade-down" data-aos-duration="900">
     <!-- nav -->
-    <div class="logo" data-aos="fade-left" data-aos-duration="2100">
+    <div class="logo" data-aos="fade-right" data-aos-duration="1000">
       <h1>jay <span>kumar</span></h1>
     </div>
-    <nav class="main-nav flex justify-content" id="main-nav" data-aos="fade-right" data-aos-duration="2100">
+    <nav class="main-nav flex justify-content" id="main-nav"  data-aos="fade-left" data-aos-duration="1000">
       <ul class="navbar-items flex" id="navbar-items">
         <li><a class="hover" href="#home">home</a></li>
         <li><a class="hover" href="#about">about</a></li>
@@ -45,7 +45,7 @@
         <!-- <li><a class="hover" href=""></a></li> -->
       </ul>
     </nav>
-    <div onclick="apearnav" class="menu-toggle" id="menu-toggle" data-aos="fade-up" data-aos-duration="2100">
+    <div data-aos="fade-left" onclick="apearnav" class="menu-toggle" id="menu-toggle">
       <div class="bar"></div>
       <div class="bar"></div>
       <div class="bar"></div>
@@ -72,27 +72,27 @@
     <div class="container">
       <div class="content">
         <div class="main-hero">
-          <div class="hero-text-left margin-left">
-            <h1  data-aos="zoom-in-down" data-aos-duration="2000">jay kumar <span>your developer <br>forever </br></span></h1>
-            <p data-aos="fade-up" data-aos-duration="2000">hi, i am jay kumar your most wanted creative developer, welcome to my portfolio.</p>
+          <div class="hero-text-left margin-left" data-aos="fade-right" data-aos-duration="2000">
+            <h1>jay kumar <span>your developer <br>forever </br></span></h1>
+            <p>hi, i am jay kumar your most wanted creative developer, welcome to my portfolio.</p>
             <!-- <p> Hlo, I'm jay kumar. Passionate Front End Developer with a strong foundation in HTML, CSS, Boostrap, and
               JavaScript.Let's build something amazing together!</p> -->
-            <span >
+            <span>
               <a aria-label="linkedin" rel="noreferrer" target="_blank"
                 href="https://www.linkedin.com/in/jaykumar-gupta-54535619a/">
-                <img data-aos="fade-up" data-aos-duration="2100" src="./image/link.webp" alt="">
+                <img src="./image/link.webp" alt="">
               </a>
-              <a  aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/jaykumar45">
-                <img data-aos="fade-up" data-aos-duration="2100" src="./image/github-pages-logo-computer-icons-github-9776e58f037352c03a256c52f699f063.png" alt="">
+              <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/jaykumar45">
+                <img src="./image/github-pages-logo-computer-icons-github-9776e58f037352c03a256c52f699f063.png" alt="">
               </a>
             </span>
           </div>
-          <div class="hero-img"  data-aos="zoom-in-down" data-aos-duration="2600"></div>
+          <div class="hero-img" data-aos="fade-left" data-aos-duration="2000"></div>
         </div>
 
       </div>
       <div class="skills">
-        <div data-aos="fade-up" data-aos-offset="180" data-aos-duration="2000" class="logos">
+        <div class="logos" data-aos="zoom-in" data-aos-offset="1" data-aos-duration="1000">
           <p>tech skills</p>
           <img src="./image/html5.png" alt=""></a>
           <img src="./image/css3.png" alt=""></a>
@@ -203,8 +203,8 @@
   <!-- services-section -->
 
   <section class="container services-container">
-    <div class="services-content" data-aos="zoom-in-down" data-aos-duration="2500">
-      <a href="#sercves">services comming soon!</a>
+    <div class="services-content" data-aos="fade-down" data-aos-offset="2" data-aos-duration="1500">
+      <a href="#service">services comming soon!</a>
     </div>
   </section>
 
@@ -213,18 +213,18 @@
 
   <!-- footer -->
 
-  <footer class="footer-sec" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1500">
+  <footer class="footer-sec">
     <div class="footer-header">
-      <h1 data-aos="zoom-in-down">let's build amazing <br> <span>experiences</span></h1>
+      <h1  data-aos="fade-right" data-aos-offset="90" data-aos-duration="1500">let's build amazing <br> <span>experiences</span></h1>
     </div>
       <div class="footer-l">
         <div class="footer-my flex">
           <div class="footer-left">
-            <p data-aos="zoom-in-down">contact</p>
-            <p data-aos="zoom-in-down">Don't be shy! Hit me up!</p>
-            <button data-aos="zoom-in-down">hire me</button>
+            <p  data-aos="fade-right" data-aos-offset="96" data-aos-duration="1600">contact</p>
+            <p  data-aos="fade-right" data-aos-offset="95" data-aos-duration="1600">Don't be shy! Hit me up!</p>
+            <button data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">hire me</button>
           </div>
-          <div class="footer-right flex" data-aos="zoom-in-down">
+          <div class="footer-right flex"  data-aos="fade-left" data-aos-offset="100" data-aos-duration="1800">
             <a href="#home">home</a>
             <a href="#projects">projects</a>
             <a href="#services">services</a>
@@ -232,15 +232,15 @@
         </div>
 
 
-        <div class="contact-sec flex" data-aos="zoom-in-down" >
-          <div class="location flex">
+        <div class="contact-sec flex" >
+          <div class="location flex" data-aos="fade-right" data-aos-offset="110" data-aos-duration="1600">
             <img src="./image/map.avif" alt="">
             <div class="l-address">
               <a href="#">location</a>
-              <a href="https://www.google.com/maps/place/Ayyappa+Nagar,+Krishnarajapura,+Bengaluru,+Karnataka/@13.000251">Bangalore, ayyappanagar</a>
+              <a href="#">bangalore</a>
             </div>
           </div>
-          <div class="email flex">
+          <div class="email flex"  data-aos="fade-left" data-aos-offset="100" data-aos-duration="1600">
             <img src="https://cdn-icons-png.flaticon.com/512/3178/3178283.png" alt="">
             <div class="e-address">
               <a href="#" style="color: aliceblue;">email</a>
@@ -261,10 +261,12 @@
       </div>
     </div>
   </footer>
-  <!--footer-end -->
+  <!-- sub-footer -->
 
 
   <!-- <div class="" style="height:1vh;" data-aos-offset="400" data-aos-duration="1500"></div> -->
+  
+
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
