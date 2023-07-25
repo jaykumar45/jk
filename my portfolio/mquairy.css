@@ -1,9 +1,6 @@
 @media (max-width: 889px) {
   .menu-toggle {
-    display: block;
-    z-index: 999;
-    border: 3px solid #00ff00;
-    color: rgb(164, 154, 174);
+   
   }
 
   .header {
